@@ -2,6 +2,7 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    font-family: 'Inter';
 }
 
 body{
@@ -13,7 +14,7 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
-padding: 1rem;
+    padding: 1rem;
 }
 ul{
     display: flex;
@@ -23,4 +24,26 @@ li{
     margin: .5rem;
     padding: .5rem;
     list-style: none;
+}
+
+.image{
+    height: 42rem;
+    width: 100%;
+    background-color: red;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+section{
+    padding: 1rem;
+    margin: 1rem;
+}
+h1{
+    margin-bottom:1rem;
+}
+P{
+    width: 80%;
+    font-style: inter;
 }
